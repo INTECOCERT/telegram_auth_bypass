@@ -1,0 +1,257 @@
+[1397212149.11 Sending to: 127.0.0.1:65521]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  fc 92 ab b3 f4 59 e0 24 41 54 2f 89 30 6b 70 65
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980486223636480
+     seq_no: 1
+    msg_len: 4
+DATA:
+ c4f9186b
+
+------ END MSG TO ENCRYPT ------
+[1397212149.22 Received from: 127.0.0.1:65521]
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  0b 21 ff 17 63 a9 b2 10 1a 72 0a 94 1b bc 4d 71
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980488553888769
+     seq_no: 2
+    msg_len: 88
+DATA:
+ 73f1f8dc 00000002 b44d1801 5347c3f5 00000001 0000001c 9ec20908 29692800 5347c3f5 3f37cc38 9418954d 84e26a6a 4657d6de b44df401 5347c3f5 00000002 00000014 62d6b459 1cb5c415 00000001 29692800 5347c3f5
+
+[1397212149.25 Received from: 127.0.0.1:65521]
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  92 7f 5e f6 b8 fc 8a 43 8a 94 dd b8 8b 24 24 0d
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980488636697601
+     seq_no: 3
+    msg_len: 180
+DATA:
+ f35c6d01 29692800 5347c3f5 232d5905 5347c3f5 bc799737 00000002 1cb5c415 00000005 2ec2a43c 00000001 00000000 37323109 302e302e 0000312e 0000fff6 2ec2a43c 00000002 00000000 37323109 302e302e 0000312e 0000fff5 2ec2a43c 00000003 00000000 37323109 302e302e 0000312e 0000fff2 2ec2a43c 00000004 00000000 37323109 302e302e 0000312e 0000fff3 2ec2a43c 00000005 00000000 37323109 302e302e 0000312e 0000fff4 000000c8
+
+[1397212150.22 Sending to: 127.0.0.1:65521]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  37 19 4e b2 2a 3b f9 3f 87 25 86 49 9a 9a e8 6f
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980491025973248
+     seq_no: 2
+    msg_len: 44
+DATA:
+ 62d6b459 1cb5c415 00000004 b44d1801 5347c3f5 b44df401 5347c3f5 b44dfc01 5347c3f5 b93d8c01 5347c3f5
+
+------ END MSG TO ENCRYPT ------
+[1397212155.88] Telephone number (with '+' sign): +34686566358
+[1397212159.65 Sending to: 127.0.0.1:65521]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  d7 19 87 d9 58 ce ce 2c 70 12 5d 20 70 cf 55 f4
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980531528084480
+     seq_no: 5
+    msg_len: 20
+DATA:
+ 6fe51dfb 34332b0c 35363836 35333636 00000038
+
+------ END MSG TO ENCRYPT ------
+[1397212159.74 Received from: 127.0.0.1:65521]
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  52 c2 64 ed af 60 a2 14 55 20 70 71 b5 ee 7a a6
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980533755692033
+     seq_no: 5
+    msg_len: 36
+DATA:
+ f35c6d01 b5c42c00 5347c3ff 2144ca19 0000012f 4f48500f 4d5f454e 41524749 345f4554
+
+[1397212159.74 Sending to: 127.0.0.1:65523]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  37 26 4a e5 30 09 31 50 f6 29 22 a8 8f 28 ca a5
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980531528084484
+     seq_no: 1
+    msg_len: 20
+DATA:
+ 6fe51dfb 34332b0c 35363836 35333636 00000038
+
+------ END MSG TO ENCRYPT ------
+[1397212159.79 Received from: 127.0.0.1:65523]
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  c6 11 b1 e1 13 a1 1a 68 7e 97 ae f6 06 8d ab 85
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980534071239681
+     seq_no: 2
+    msg_len: 88
+DATA:
+ 73f1f8dc 00000002 4d58dc01 5347c400 00000001 0000001c 9ec20908 b5c42c04 5347c3ff 9bed0f5e fca59ea5 9a8e6185 3aef3a74 4d599c01 5347c400 00000002 00000014 62d6b459 1cb5c415 00000001 b5c42c04 5347c3ff
+
+[1397212159.80 Received from: 127.0.0.1:65523]
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  fb 3b 37 50 26 8d 18 5e 49 2b 3c 01 b1 57 a5 7b
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980534093030401
+     seq_no: 3
+    msg_len: 24
+DATA:
+ f35c6d01 b5c42c04 5347c3ff e300cc3b 997275b5 997275b5
+
+ *** phone registered
+ *** sending code
+ *** send_code: dc_num = 4
+[1397212159.80 Sending to: 127.0.0.1:65523]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  f0 b6 5f 42 06 fa 2b b2 6c 27 af 05 54 96 7a 5f
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980532773694464
+     seq_no: 3
+    msg_len: 172
+DATA:
+ a6b88fdf 69796de9 00000b53 36387806 0034365f 6e694c37 33207875 2d33312e 6d612d31 20343664 53203123 4420504d 61696265 2e33206e 372e3331 2820312d 34313032 2d33302d 0a293532 302e3015 65622d31 28206174 6c697562 30322064 00002939 006e4502 768d5f4d 34332b0c 35363836 35333636 00000038 00000000 00000b53 37363320 37633232 36353232 63343261 35323231 30306564 61366265 37616331 00000034 006e6502
+
+------ END MSG TO ENCRYPT ------
+[1397212159.85 Received from: 127.0.0.1:65523]
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  fb cc b6 20 12 4e 13 ca 84 83 a8 64 74 30 5e 2f
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980534315356161
+     seq_no: 5
+    msg_len: 40
+DATA:
+ f35c6d01 0002ac00 5347c400 2215bcbd 997275b5 32643212 31316431 36653737 37343835 00393262
+
+Code from sms: [1397212160.85 Sending to: 127.0.0.1:65521]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  ad e3 84 6a a3 44 a1 a2 2f e3 ac 66 f9 3a 23 14
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980536657789952
+     seq_no: 6
+    msg_len: 20
+DATA:
+ 62d6b459 1cb5c415 00000001 3a8ac401 5347c400
+
+------ END MSG TO ENCRYPT ------
+[1397212160.85 Sending to: 127.0.0.1:65523]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  c0 4c 14 eb e1 ef 93 96 6e fc 74 c8 96 64 fc 9a
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980537073050624
+     seq_no: 4
+    msg_len: 52
+DATA:
+ 62d6b459 1cb5c415 00000005 4d58dc01 5347c400 4d599c01 5347c400 4d59a401 5347c400 4ea62401 5347c400 5be69001 5347c400
+
+------ END MSG TO ENCRYPT ------
+53539
+[1397212169.37 Sending to: 127.0.0.1:65523]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  51 33 98 e8 46 e9 da 85 7b 23 cb 11 a8 7e 88 b8
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980573656336384
+     seq_no: 7
+    msg_len: 48
+DATA:
+ bcd51581 34332b0c 35363836 35333636 00000038 32643212 31316431 36653737 37343835 00393262 35333505 00003933
+
+------ END MSG TO ENCRYPT ------
+CODE sent.
+[1397212169.42 Received from: 127.0.0.1:65523]
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  db d3 00 07 37 71 62 d0 38 17 86 0a 65 d3 a6 78
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980575425395713
+     seq_no: 7
+    msg_len: 64
+DATA:
+ f35c6d01 84ce4800 5347c409 f6b673a4 5528f789 720535ec 0079b598 00004a01 00000000 3634330b 36353638 38353336 4f11bae1 edb93949 5347c531 bc799737
+
+authorized successfully: name = '(null) (null)', phone = '(null)', expires = 31535999
+[1397212169.42 Sending to: 127.0.0.1:65523]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  b7 c7 b4 c7 a2 b4 c2 5c 78 12 54 a9 59 a5 31 0a
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980573656336388
+     seq_no: 9
+    msg_len: 8
+DATA:
+ e5bfffcd 00000001
+
+------ END MSG TO ENCRYPT ------
+[1397212169.54 Received from: 127.0.0.1:65523]
+HEADER: 
+auth_key_id: 6f b7 5b 2d 96 4b 25 92
+    msg_key:  63 4d 7b f0 98 6a 03 f2 15 38 af ad f8 c7 a2 63
+server_salt: 4246677246117306757
+ session_id: -1690585599003652191
+     msg_id: 6000980575958024193
+     seq_no: 9
+    msg_len: 152
+DATA:
+ f35c6d01 84ce4804 5347c409 df969c2d 0079b598 b7ce2c80 2063ea57 7c31f38f 948543d7 1c6459f7 446a2e2b 1d7e8fbc f7ae0132 1ee68247 5d5c2e57 103a59eb c7c7f30a 24afc935 c1c9a764 484dfb0c 6bb989b5 86ef295a c3d06fd9 92c2ad89 3e159f0f 34b37df5 a050d794 bb2c2b2f 8ba1753a 806a89c1 28d75a0c 8a669af1 2680e4e1 932d5976 97647aeb 76957876 4257b840 00000062
+
+[1397212169.54 Sending to: 127.0.0.1:65521]
+------ BEGIN MSG TO ENCRYPT ------
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  6d 71 dd cc 99 32 4f 6f 0d a4 38 8c 21 b8 79 9c
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980574005146624
+     seq_no: 9
+    msg_len: 140
+DATA:
+ e3ef9613 0079b598 b7ce2c80 2063ea57 7c31f38f 948543d7 1c6459f7 446a2e2b 1d7e8fbc f7ae0132 1ee68247 5d5c2e57 103a59eb c7c7f30a 24afc935 c1c9a764 484dfb0c 6bb989b5 86ef295a c3d06fd9 92c2ad89 3e159f0f 34b37df5 a050d794 bb2c2b2f 8ba1753a 806a89c1 28d75a0c 8a669af1 2680e4e1 932d5976 97647aeb 76957876 4257b840 00000062
+
+------ END MSG TO ENCRYPT ------
+[1397212169.93 Received from: 127.0.0.1:65521]
+HEADER: 
+auth_key_id: c5 e2 f1 f8 fc 7e 3f 9f
+    msg_key:  f5 9b b8 f2 55 43 1b b7 10 99 76 05 fc 46 6c 32
+server_salt: 5068756156829297258
+ session_id: -6498140076850792170
+     msg_id: 6000980576228621313
+     seq_no: 7
+    msg_len: 40
+DATA:
+ f35c6d01 9998b400 5347c409 2144ca19 00000190 54554112 59425f48 5f534554 41564e49 0044494c
+
+error #400: AUTH_BYTES_INVALID
+telegram: queries.c:569: fail_on_error: Assertion `0' failed.

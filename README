@@ -1,0 +1,87 @@
+Author: Jesus Diaz Vico, INTECO, www.inteco.es
+
+For more details on the PoC, and why does it work, visit: 
+	
+	www.inteco.es/blogs/inteco/Seguridad/BlogSeguridad/ultimos_articulos/
+	www.inteco.es/guias_estudios/Estudios
+
+CONTENTS
+
+* tg-victim/
+
+	This directory contains a modified version of the tg client for Telegram.
+
+	This client uses the "ilegitimate" key, stored in mitm-tg.pub, instead of 
+	the legitimate one in tg.pub. 
+
+	In order to compile it and create the binaries, follow the same instructions
+	than the legitimate client. Namely, run ./configure; make.
+
+	To run the client, use the command:
+
+		tg-victim/telegram -k tg.pub [-L <logfile> -V]
+
+	When specified the -L flag, a log of the messages sent is stored in
+	<logfile>. With -V, a more detailed dump of the messages received and
+	sent is printed to stdout.
+
+	Despite specifying the legitimate public key, the ilegitimate one will
+	be used.
+
+* tg-mitm-1auth/
+
+	This directory contains the MITM for the PoC, also based in the tg client
+	for Telegram.
+
+	In order to compile it and create the binaries, follow the same instructions
+	than the legitimate client. Namely, run ./configure; make.
+
+	To run the client, use the command:
+
+		tg-mitm-1auth/telegram -k tg.pub -P <port> [-L <logfile> -V]
+
+	When specified the -L flag, a log of the messages sent is stored in
+	<logfile>. With -V, a more detailed dump of the messages received and
+	sent is printed to stdout.
+
+	This program opens a socket at the specified local port. It will wait for
+	connections to that socket. The client also loads the private key associated
+	to the mitm-tg.pub key, loaded by the ilegitimate client.
+
+	The 1auth name comes from the fact that this client is only able to attend
+	1 authentication request at a time.
+
+INSTRUCTIONS TO RUN THE POC
+
+	Since the MITM program is only able to handle 1 request at a time, and 
+	during a protocol run several parallel authentications are executed (at 
+	least during the performed test, 5 protocol runs were done), it is
+	necessary to launch 5 instances of the MITM program. For instance:
+
+		tg-mitm-1auth/telegram -k tg.pub -P 65521
+		tg-mitm-1auth/telegram -k tg.pub -P 65522
+		tg-mitm-1auth/telegram -k tg.pub -P 65523
+		tg-mitm-1auth/telegram -k tg.pub -P 65524
+		tg-mitm-1auth/telegram -k tg.pub -P 65525
+
+	After having launched the 5 MITMs, the victim may be lauched with:
+
+		tg-victim/telegram -k tg.pub
+
+	The client will run exactly as a legitimate one. It will request the
+	cell phone number to which the SMS code will be sent, and will
+	subsequently wait for that code to be introduced. After sending back
+	the code, the program exits.
+
+	If you have your Telegram account already set up in another device, a
+	notification will be received in that device, confirming the success
+	of the authentication.
+
+IMPORTANT NOTE
+
+	Each time the PoC is run, several hidden folders are created in your 
+	home directory: .telegram-mitm-client, .telegram-mitm-server1,	
+	.telegram-mitm-server2, ..., .telegram-mitm-server5. To reproduce the
+	process, this folders need to be removed.
+
+	This PoC has been tested in a Debian "Jessie" machine.
